@@ -1,0 +1,192 @@
+.container {
+    width: 1500px;
+    height: 900px;
+}
+* {
+    padding: 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+
+}
+header{
+    width: 35%;
+    height: 185px;
+    background-color: #29507B;
+    float: left;
+}
+header img {
+    width: 20%;
+    margin: 20px;
+}
+header h1 {
+    position: absolute;
+    color: white;
+    margin: 50px 150px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+header p {
+    color: white;
+    position: absolute;
+    margin: 100px 150px;
+    font-size: 25px;
+}
+nav {
+    width: 65%;
+    height: 185px;
+    background-color: #29507B;
+    float: left;
+}
+nav form {
+    margin: 2% 2%;
+    float:right ;
+    
+}
+nav form input {
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+    background-color: #153a63;
+    color: rgb(255, 255, 255) !important; /* Thay đổi màu chữ thành trắng */
+}
+nav form button{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #153a63;
+    color: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+    clear: both;
+    margin-left: 6%;
+}
+nav ul li {
+    margin-top: 60px;
+    margin-left: 2%;
+    padding: 1%;
+    background-color: #3B72B2;
+    display: inline-block;
+    font-size: 200%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section {
+    width: 65%;
+    height: 645px;
+    float: left;
+}
+.article1 {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    color: rgb(107, 107, 107);
+}
+.article1 h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px dotted rgb(107, 107, 107);
+}
+.article2{
+    width: 100%;
+    height: 550px;
+}
+.article2-1{
+    width: 60%;
+    height: 550px;
+    float: left;
+}
+.article2-1 p {
+    margin: 10px;
+    color: red;
+    text-shadow: 5px 5px 5px greenyellow;
+    font-size: 20px;
+}
+.article2-1 form table tr td p{
+    color: #000;
+    text-shadow: none;
+    margin-left: 0px;
+}
+.article2-1 form table tr td{
+    padding: 10px;
+}
+.article2-1 form table tr td p {
+    margin-bottom: 0px;
+}
+.article2-1 form table tr td button {
+    padding: 5px;
+}
+.article2-1 form table tr td input {
+    padding: 10px;
+}
+.article2-2 {
+    width: 40%;
+    height: 550px;
+    float: left;
+    color: rgb(107, 107, 107);
+}
+.article2-2 h1 {
+    font-size: 35px;
+    padding:20px 0px ;
+    border-bottom: 5px dotted rgb(107, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.article2-2 p {
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.article2-2 ul li {
+    font-size: 25px;
+    list-style-type: none;
+}
+aside {
+    background-color: rgba(232, 232, 232, 0.584);
+    width: 30%;
+    height: 580px;
+    float: left;
+    margin: 30px;
+}
+.aside1 {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+}
+.aside1 p {
+    font-size: 25px;
+    color: rgb(107, 107, 107);
+    margin-top: 30px;
+}
+aside h1 {
+    color: rgb(107, 107, 107);
+    font-size: 35px;
+    padding: 30px 0px;
+    border-bottom: 5px dotted rgb(107, 107, 107);
+}
+aside img {
+    margin-top: 20px;
+    width: 100%;
+    border: 5px groove;
+}
+aside a {
+    border: none;
+    color: #3B72B2;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer {
+    background-color:#153a63;
+    width: 100%;
+    height: 70px;
+    clear: both;
+    color: white;
+
+}
+address h3 {
+    padding: 20px;
+    font-style: normal;
+}
